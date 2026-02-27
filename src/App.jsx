@@ -8,6 +8,7 @@ import { Loginpage } from './loginpage'
 import Signuppage from './Signupage'
 import { ForgotPassword } from './forgotPassword'
 import { SetPassword } from './setpassword'
+import UpdateProfile from './Updateprofile'
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
     }/>
     <Route path="/setpassword" element={
     <SetPassword></SetPassword>
+    }/>
+
+<Route path="/UpdateProfile" element={
+    <UpdateProfile></UpdateProfile>
     }/>
    </Routes>
   )
