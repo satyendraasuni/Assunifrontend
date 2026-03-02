@@ -9,6 +9,8 @@ import Signuppage from './Signupage'
 import { ForgotPassword } from './forgotPassword'
 import { SetPassword } from './setpassword'
 import UpdateProfile from './Updateprofile'
+import Postpage from './Postpage'
+import AddPostpage from './AddPostPage'
 
 
 function App() {
@@ -36,6 +38,12 @@ function App() {
 
 <Route path="/UpdateProfile" element={
     <UpdateProfile></UpdateProfile>
+    }/>
+    <Route path="/Postpage" element={
+  <Postpage></Postpage>
+    }/>
+     <Route path="/Addpostpage" element={
+  <AddPostpage></AddPostpage>
     }/>
    </Routes>
   )
