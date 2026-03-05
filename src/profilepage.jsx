@@ -9,7 +9,7 @@ export default function Profilepage() {
         
         <h2 className="text-2xl font-bold text-center mb-6">Profile</h2>
 
-        {/* Profile Image */}
+       
         <div className="flex flex-col items-center mb-6">
           <div className="w-24 h-24 rounded-full bg-blue-500 flex items-center justify-center text-white text-lg">
             Image
@@ -19,7 +19,7 @@ export default function Profilepage() {
           </button>
         </div>
 
-        {/* Form */}
+   
         <div className="flex flex-col gap-4">
           <Signupcomp label="Name *" type="text" />
           <Signupcomp label="Phone No *" type="text" />
@@ -35,16 +35,16 @@ export default function Profilepage() {
 
           <Signupcomp label="Document (Aadhar Card) *" type="text" />
 
-          {/* Action Buttons */}
+         
           <div className="flex justify-around mt-2">
 
-            {/* Logout Button */}
+
             <button className="flex items-center gap-2 bg-yellow-500 text-white px-3 py-2 rounded-lg hover:bg-yellow-600">
               <LogOut size={18} />
               Logout
             </button>
 
-            {/* Delete Button */}
+   
             <button className="flex items-center gap-2 bg-red-500 text-white px-3 py-2 rounded-lg hover:bg-red-600">
               <Trash2 size={18} />
               Delete
@@ -52,7 +52,7 @@ export default function Profilepage() {
 
           </div>
 
-          {/* Save Button */}
+     
           <button className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 mt-2">
             Save Profile
           </button>
