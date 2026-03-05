@@ -11,6 +11,7 @@ import { SetPassword } from './setpassword'
 import UpdateProfile from './Updateprofile'
 import Postpage from './Postpage'
 import AddPostpage from './AddPostPage'
+import Profilepage from './profilepage'
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
     }/>
      <Route path="/Addpostpage" element={
   <AddPostpage></AddPostpage>
+    }/>
+
+      <Route path="/Profilepage" element={
+  <Profilepage></Profilepage>
     }/>
    </Routes>
   )
